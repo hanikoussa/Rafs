@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { NavLink, form } from "react-router-dom";
-import cart from "/assets/cart.png";
-import wishList from "/assets/wishList.png";
-import herfah from "/assets/herfah.jpeg";
+import cart from "../assets/cart.png";
+import wishList from "../assets/wishList.png";
+import herfah from "../assets/herfah.jpeg";
 import {
   MDBContainer,
   MDBNavbar,
@@ -13,7 +13,7 @@ import {
   MDBNavbarItem,
   MDBNavbarLink,
   MDBBtn,
-  MDBCollapse
+  MDBCollapse,
 } from "mdb-react-ui-kit";
 
 export default function Header() {
@@ -27,7 +27,7 @@ export default function Header() {
       style={{
         borderBottom: 5,
         borderBottomStyle: "solid",
-        borderBottomColor: "#C05528"
+        borderBottomColor: "#C05528",
       }}
     >
       <MDBContainer fluid>
@@ -57,7 +57,7 @@ export default function Header() {
             src={herfah}
             alt="herfah"
             style={{
-              width: 40
+              width: 40,
             }}
           />
         </MDBNavbarBrand>
@@ -68,7 +68,7 @@ export default function Header() {
                 src={wishList}
                 alt="wish"
                 style={{
-                  width: 20
+                  width: 20,
                 }}
               />
             </MDBNavbarLink>
@@ -79,7 +79,7 @@ export default function Header() {
                 src={cart}
                 alt="cart"
                 style={{
-                  width: 25
+                  width: 25,
                 }}
               />
             </MDBNavbarLink>
@@ -99,7 +99,7 @@ export default function Header() {
               style={{
                 color: "#C05528",
                 borderColor: "#C05528",
-                backgroundColor: "white"
+                backgroundColor: "white",
               }}
             >
               Search

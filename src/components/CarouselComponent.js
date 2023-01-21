@@ -1,6 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import React from "react";
-import silk from "/assets/peakpx.jpeg";
+import silk from "../assets/peakpx.jpeg";
 
 import "../carousel.css";
 
@@ -17,14 +17,14 @@ function CarouselComponent() {
 
         <Carousel.Caption
           style={{
-            top: "45%"
+            top: "45%",
           }}
         >
           <a
             href="/about"
             style={{
               textDecoration: "none",
-              color: "white"
+              color: "white",
             }}
           >
             <h3>About Us</h3>
@@ -38,7 +38,7 @@ function CarouselComponent() {
 
         <Carousel.Caption
           style={{
-            top: "45%"
+            top: "45%",
           }}
         >
           <h3>Second slide label</h3>
@@ -50,7 +50,7 @@ function CarouselComponent() {
 
         <Carousel.Caption
           style={{
-            top: "45%"
+            top: "45%",
           }}
         >
           <h3>Third slide label</h3>
